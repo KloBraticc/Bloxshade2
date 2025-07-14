@@ -1,0 +1,230 @@
+22:13:47:978 [ 6784] | INFO  | Initializing crosire's ReShade version '6.5.1.2008' (64-bit) loaded from 'C:\Users\Hiile\AppData\Roaming\Bloxshade\dxgi.dll' into 'C:\Users\Hiile\AppData\Roaming\Bloxshade\bloxshade.exe' (0x4AE6807D) ...
+22:13:47:978 [ 6784] | INFO  | Registering hooks for 'user32.dll' ...
+22:13:47:978 [ 6784] | INFO  | > Libraries loaded.
+22:13:47:979 [ 6784] | INFO  | > Found 21 match(es). Installing ...
+22:13:47:988 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\dinput.dll' ...
+22:13:47:988 [ 6784] | INFO  | > Delayed.
+22:13:47:988 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\dinput8.dll' ...
+22:13:47:988 [ 6784] | INFO  | > Delayed.
+22:13:47:988 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d2d1.dll' ...
+22:13:47:988 [ 6784] | INFO  | > Delayed.
+22:13:47:989 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d9.dll' ...
+22:13:47:989 [ 6784] | INFO  | > Delayed.
+22:13:47:989 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d10.dll' ...
+22:13:47:989 [ 6784] | INFO  | > Delayed.
+22:13:47:989 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d10_1.dll' ...
+22:13:47:989 [ 6784] | INFO  | > Delayed.
+22:13:47:989 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d11.dll' ...
+22:13:47:989 [ 6784] | INFO  | > Libraries loaded.
+22:13:47:989 [ 6784] | INFO  | > Found 3 match(es). Installing ...
+22:13:47:998 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\d3d12.dll' ...
+22:13:47:998 [ 6784] | INFO  | > Delayed.
+22:13:47:998 [ 6784] | INFO  | Registering hooks for 'C:\WINDOWS\system32\dxgi.dll' ...
+22:13:47:998 [ 6784] | INFO  | > Delayed until first call to an exported function.
+22:13:47:999 [ 6784] | INFO  | Registering hooks for 'openvr_api.dll' ...
+22:13:47:999 [ 6784] | INFO  | > Delayed.
+22:13:47:999 [ 6784] | INFO  | Initialized.
+22:13:49:007 [ 6784] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 00000027076FED70 { "Bloxshade", style = 0x3 }) ...
+22:13:49:007 [ 6784] | INFO  | > Adding 'CS_OWNDC' window class style flag to "Bloxshade".
+22:13:49:035 [ 6784] | INFO  | Redirecting D3D11CreateDeviceAndSwapChain(pAdapter = 0000000000000000, DriverType = 1, Software = 0000000000000000, Flags = 0, pFeatureLevels = 00007FF61FFC9848, FeatureLevels = 2, SDKVersion = 7, pSwapChainDesc = 00000027076FED20, ppSwapChain = 00007FF62006FF90, ppDevice = 00007FF62006FF70, pFeatureLevel = 0000000000000000, ppImmediateContext = 00007FF62006FFD0) ...
+22:13:49:036 [ 6784] | INFO  | Searching for add-ons (*.addon, *.addon64) in 'C:\Users\Hiile\AppData\Roaming\Bloxshade' ...
+22:13:49:036 [ 6784] | INFO  | Loading add-on from 'C:\Users\Hiile\AppData\Roaming\Bloxshade\Bloxshade_ReShade.addon64' ...
+22:13:49:037 [ 6784] | INFO  | Registered add-on "Bloxshade_ReShade" v0.0.0.0 using ReShade API version 16.
+22:13:49:038 [ 6784] | INFO  | Installing export hooks for 'C:\WINDOWS\system32\dxgi.dll' ...
+22:13:49:038 [ 6784] | INFO  | > Found 5 match(es). Installing ...
+22:13:49:038 [ 6784] | INFO  | Redirecting CreateDXGIFactory2(Flags = 0x80000000, riid = {7B7166EC-21C7-44AE-B21A-C9AE321AE369}, ppFactory = 00000027076FE538) ...
+22:13:49:181 [ 6784] | INFO  | Using feature level b000.
+22:13:49:181 [ 6784] | INFO  | Calling IDXGIFactory::CreateSwapChain:
+22:13:49:182 [ 6784] | INFO  | Redirecting IDXGIFactory::CreateSwapChain(this = 0000017EA3E0B900, pDevice = 0000017EA6AD1848, pDesc = 00000027076FED20, ppSwapChain = 00007FF62006FF90) ...
+22:13:49:182 [ 6784] | INFO  | > Dumping swap chain description:
+22:13:49:182 [ 6784] | INFO  |   +-----------------------------------------+-----------------------------------------+
+22:13:49:182 [ 6784] | INFO  |   | Parameter                               | Value                                   |
+22:13:49:182 [ 6784] | INFO  |   +-----------------------------------------+-----------------------------------------+
+22:13:49:182 [ 6784] | INFO  |   | Width                                   | 1920                                    |
+22:13:49:182 [ 6784] | INFO  |   | Height                                  | 1080                                    |
+22:13:49:182 [ 6784] | INFO  |   | RefreshRate                             | 0                   0                   |
+22:13:49:182 [ 6784] | INFO  |   | Format                                  | DXGI_FORMAT_R8G8B8A8_UNORM              |
+22:13:49:182 [ 6784] | INFO  |   | ScanlineOrdering                        | 0                                       |
+22:13:49:182 [ 6784] | INFO  |   | Scaling                                 | 0                                       |
+22:13:49:183 [ 6784] | INFO  |   | SampleCount                             | 1                                       |
+22:13:49:183 [ 6784] | INFO  |   | SampleQuality                           | 0                                       |
+22:13:49:183 [ 6784] | INFO  |   | BufferUsage                             | 0x20                                    |
+22:13:49:183 [ 6784] | INFO  |   | BufferCount                             | 2                                       |
+22:13:49:183 [ 6784] | INFO  |   | OutputWindow                            | 0000000000320612                        |
+22:13:49:183 [ 6784] | INFO  |   | Windowed                                | TRUE                                    |
+22:13:49:183 [ 6784] | INFO  |   | SwapEffect                              | 0                                       |
+22:13:49:183 [ 6784] | INFO  |   | Flags                                   | 0                                       |
+22:13:49:183 [ 6784] | INFO  |   +-----------------------------------------+-----------------------------------------+
+22:13:49:184 [ 6784] | INFO  | Running on NVIDIA GeForce RTX 3060 Ti Driver 576.88.
+22:13:49:584 [ 6784] | INFO  | Recreated runtime environment on runtime 0000017EA6EDD8F0 ('C:\Users\Hiile\AppData\Roaming\Bloxshade\ReShade.ini').
+22:13:49:585 [ 6784] | INFO  | Redirecting IDXGISwapChain::ResizeBuffers(this = 0000017EA6D55150, BufferCount = 0, Width = 800, Height = 599, NewFormat = 0, SwapChainFlags = 0) ...
+22:13:49:585 [ 6784] | INFO  | Destroyed runtime environment on runtime 0000017EA6EDD8F0 ('C:\Users\Hiile\AppData\Roaming\Bloxshade\ReShade.ini').
+22:13:49:586 [ 6784] | INFO  | Recreated runtime environment on runtime 0000017EA6EDD8F0 ('C:\Users\Hiile\AppData\Roaming\Bloxshade\ReShade.ini').
+22:13:49:587 [ 6784] | INFO  | Redirecting RegisterClassExW(lpWndClassEx = 00000027076FEEB0 { "ImGui Platform", style = 0x3 }) ...
+22:13:49:587 [ 6784] | INFO  | > Adding 'CS_OWNDC' window class style flag to "ImGui Platform".
+22:13:51:592 [ 6784] | INFO  | Redirecting IDXGISwapChain::ResizeBuffers(this = 0000017EA6D55150, BufferCount = 0, Width = 1920, Height = 1080, NewFormat = 0, SwapChainFlags = 0) ...
+22:13:51:593 [ 6784] | INFO  | Destroyed runtime environment on runtime 0000017EA6EDD8F0 ('C:\Users\Hiile\AppData\Roaming\Bloxshade\ReShade.ini').
+22:13:51:593 [ 6784] | INFO  | Recreated runtime environment on runtime 0000017EA6EDD8F0 ('C:\Users\Hiile\AppData\Roaming\Bloxshade\ReShade.ini').
+22:13:51:597 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Technicolor.fx' in 0.002000 s.
+22:13:51:597 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\ColorMatrix.fx' in 0.002000 s.
+22:13:51:598 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_06_Posterize_Pixelate.fx' in 0.003000 s.
+22:13:51:598 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_canvas.fx' in 0.003000 s.
+22:13:51:598 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_01_Color_Gamut.fx' in 0.003000 s.
+22:13:51:599 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\LightDoF.fx' in 0.003000 s.
+22:13:51:599 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\ReflectiveBumpMapping.fx' in 0.003000 s.
+22:13:51:599 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Color_Isolation.fx' in 0.004000 s.
+22:13:51:599 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Colourfulness.fx' in 0.001000 s.
+22:13:51:600 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\FXAA.fx' in 0.005000 s.
+22:13:51:600 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Technicolor2.fx' in 0.001000 s.
+22:13:51:601 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_Lain.fx' in 0.002000 s.
+22:13:51:601 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Limbo_Mod.fx' in 0.002000 s.
+22:13:51:602 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_pastel_bug.fx' in 0.001000 s.
+22:13:51:602 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Rim.fx' in 0.002000 s.
+22:13:51:602 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Color_Temperature.fx' in 0.003000 s.
+22:13:51:603 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\GaussianBlur.fx' in 0.002000 s.
+22:13:51:603 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\CRT.fx' in 0.003000 s.
+22:13:51:604 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Polynomial_Barrel_Distortion_for_HMDs.fx' in 0.005000 s.
+22:13:51:604 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\LumaSharpen.fx' in 0.001000 s.
+22:13:51:604 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_sync.fx' in 0.001000 s.
+22:13:51:605 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Curves.fx' in 0.001000 s.
+22:13:51:605 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\DOF.fx' in 0.010000 s.
+22:13:51:605 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Temporal_AA.fx' in 0.005000 s.
+22:13:51:606 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\LUT.fx' in 0.001000 s.
+22:13:51:606 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_02_Bloom.fx' in 0.007000 s.
+22:13:51:606 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Daltonize.fx' in 0.001000 s.
+22:13:51:606 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\rj_sharpen.fx' in 0.003000 s.
+22:13:51:607 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Tonemap.fx' in 0.001000 s.
+22:13:51:607 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PPFX_Bloom.fx' in 0.003000 s.
+22:13:51:608 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_uber_mask.fx' in 0.003000 s.
+22:13:51:608 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\DPX.fx' in 0.002000 s.
+22:13:51:609 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Contrast_Brightness_Saturation.fx' in 0.006000 s.
+22:13:51:609 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Deband.fx' in 0.002000 s.
+22:13:51:609 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Trails.fx' in 0.001000 s.
+22:13:51:610 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_02_Bonus_LUT_pack.fx' in 0.003000 s.
+22:13:51:610 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PPFX_Godrays.fx' in 0.002000 s.
+22:13:51:610 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\MagicBloom.fx' in 0.003000 s.
+22:13:51:610 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_uber_motion.fx' in 0.002000 s.
+22:13:51:611 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Monochrome.fx' in 0.001000 s.
+22:13:51:611 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\UIDetect.fx' in 0.002000 s.
+22:13:51:612 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Denoise.fx' in 0.002000 s.
+22:13:51:612 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Glamayre_Fast_Effects.fx' in 0.008000 s.
+22:13:51:612 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\3DToElse.fx' in 0.017000 s.
+22:13:51:613 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\DynamicRaindrops.fx' in 0.004000 s.
+22:13:51:613 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\UIMask.fx' in 0.001000 s.
+22:13:51:614 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_02_Cinetools_LUT.fx' in 0.003000 s.
+22:13:51:614 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\NFAA.fx' in 0.002000 s.
+22:13:51:615 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Glitch.fx' in 0.002000 s.
+22:13:51:615 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Vibrance.fx' in 0.001000 s.
+22:13:51:615 [10832] | WARN  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Scatter.fx' in 0.008000 s with warnings:
+C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Scatter.fx(794, 1): error X3020: 'V__NoiseTex': cannot sample from texture that is also used as render target in the same pass
+
+22:13:51:615 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_02_LUT_Creator.fx' in 0.001000 s.
+22:13:51:615 [ 7464] | WARN  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PPFX_SSDO.fx' in 0.004000 s with warnings:
+warning: V__texNoise: another effect (PD80_06_Posterize_Pixelate.fx) already created a texture with the same name but different dimensions
+warning: V__texNoise: another effect (PD80_06_Posterize_Pixelate.fx) already created a texture with a different image file
+
+22:13:51:615 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\EyeAdaption.fx' in 0.002000 s.
+22:13:51:616 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Depth_Cues.fx' in 0.003000 s.
+22:13:51:616 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Magical_Rectangle.fx' in 0.006000 s.
+22:13:51:616 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Sepia.fx' in 0.001000 s.
+22:13:51:617 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Vignette.fx' in 0.002000 s.
+22:13:51:617 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\AdaptiveSharpen.fx' in 0.004000 s.
+22:13:51:617 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\FakeHDR.fx' in 0.002000 s.
+22:13:51:618 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Depth_Tool.fx' in 0.002000 s.
+22:13:51:618 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Saturation_Limit.fx' in 0.002000 s.
+22:13:51:618 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\SlowSharp.fx' in 0.001000 s.
+22:13:51:619 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_03_Color_Space_Curves.fx' in 0.003000 s.
+22:13:51:619 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\FakeMotionBlur.fx' in 0.001000 s.
+22:13:51:621 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\qUINT_bloom.fx' in 0.005000 s.
+22:13:51:621 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Detect_menus_and_videos_wrapper.fx' in 0.002000 s.
+22:13:51:621 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\fastBlur.fx' in 0.001000 s.
+22:13:51:622 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_03_Curved_Levels.fx' in 0.002000 s.
+22:13:51:622 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\VirtualNose.fx' in 0.004000 s.
+22:13:51:623 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Selective_Color.fx' in 0.004000 s.
+22:13:51:623 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\AmbientLight.fx' in 0.005000 s.
+22:13:51:623 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\qUINT_deband.fx' in 0.001000 s.
+22:13:51:623 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\FastSharp.fx' in 0.001000 s.
+22:13:51:624 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_03_Filmic_Adaptation.fx' in 0.002000 s.
+22:13:51:624 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_ahoh.fx' in 0.002000 s.
+22:13:51:625 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\FilmGrain.fx' in 0.001000 s.
+22:13:51:625 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\NGLighting.fx' in 0.010000 s.
+22:13:51:625 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\AreaCopy.fx' in 0.001000 s.
+22:13:51:625 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Volumetric Fog V2.0.fx' in 0.002000 s.
+22:13:51:626 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_03_Levels.fx' in 0.001000 s.
+22:13:51:626 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\GloomAO.fx' in 0.011000 s.
+22:13:51:626 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\SMAA.fx' in 0.007000 s.
+22:13:51:627 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\AreaDiscard.fx' in 0.001000 s.
+22:13:51:627 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_ambient_remove.fx' in 0.003000 s.
+22:13:51:627 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\FilmGrain2.fx' in 0.002000 s.
+22:13:51:628 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\HighPassSharpen.fx' in 0.002000 s.
+22:13:51:628 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\VolumetricFog.fx' in 0.002000 s.
+22:13:51:629 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\qUINT_dof.fx' in 0.005000 s.
+22:13:51:629 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\ASCII.fx' in 0.002000 s.
+22:13:51:630 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\HoleFiller.fx' in 0.001000 s.
+22:13:51:630 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_03_Shadows_Midtones_Highlights.fx' in 0.004000 s.
+22:13:51:631 [ 1520] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\warpsharp.fx' in 0.001000 s.
+22:13:51:631 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\FilmicPass.fx' in 0.003000 s.
+22:13:51:631 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Smart_Sharp.fx' in 0.004000 s.
+22:13:51:632 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\HQ4X.fx' in 0.001000 s.
+22:13:51:632 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Selective_Color_v2.fx' in 0.009000 s.
+22:13:51:633 [ 3464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_anime.fx' in 0.006000 s.
+22:13:51:633 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\NiceGuy_Lamps.fx' in 0.008000 s.
+22:13:51:634 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\qUINT_lightroom.fx' in 0.005000 s.
+22:13:51:634 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Bloom.fx' in 0.005000 s.
+22:13:51:634 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\HSLShift.fx' in 0.001000 s.
+22:13:51:634 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_BlacknWhite.fx' in 0.003000 s.
+22:13:51:635 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Technicolor.fx' in 0.001000 s.
+22:13:51:635 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\FineSharp.fx' in 0.003000 s.
+22:13:51:635 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\NightVision.fx' in 0.001000 s.
+22:13:51:635 [10832] | WARN  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\SnowScape.fx' in 0.004000 s with warnings:
+C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\SnowScape.fx(448, 1): error X3020: 'V__Normals_A': cannot sample from texture that is also used as render target in the same pass
+
+22:13:51:636 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Layer.fx' in 0.001000 s.
+22:13:51:637 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Color_Balance.fx' in 0.002000 s.
+22:13:51:637 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Splitscreen.fx' in 0.001000 s.
+22:13:51:637 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Levels.fx' in 0.001000 s.
+22:13:51:637 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_05_Sharpening.fx' in 0.002000 s.
+22:13:51:638 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\StageDepth.fx' in 0.000000 s.
+22:13:51:638 [ 6820] | WARN  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_uber_rt.fx' in 0.027000 s with warnings:
+C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_uber_rt.fx(3397, 1): error X3020: 'V__DH_UBER_RT_0206__reinhardTex': cannot sample from texture that is also used as render target in the same pass
+
+22:13:51:639 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\qUINT_mxao.fx' in 0.004000 s.
+22:13:51:639 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Nostalgia.fx' in 0.003000 s.
+22:13:51:639 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\LevelsPlus.fx' in 0.002000 s.
+22:13:51:640 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_06_Chromatic_Aberration.fx' in 0.001000 s.
+22:13:51:640 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\qUINT_sharp.fx' in 0.001000 s.
+22:13:51:641 [ 6796] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\LiftGammaGain.fx' in 0.001000 s.
+22:13:51:641 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\BloomingHDR.fx' in 0.006000 s.
+22:13:51:641 [ 7220] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_04_Color_Gradients.fx' in 0.004000 s.
+22:13:51:641 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\DH_UI_TextDetect.fx' in 0.002000 s.
+22:13:51:641 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_01A_RT_Correct_Contrast.fx' in 0.002000 s.
+22:13:51:641 [11164] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Flair.fx' in 0.006000 s.
+22:13:51:642 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Border.fx' in 0.001000 s.
+22:13:51:643 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Cartoon.fx' in 0.000000 s.
+22:13:51:643 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_undither.fx' in 0.001000 s.
+22:13:51:643 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_06_Depth_Slicer.fx' in 0.003000 s.
+22:13:51:643 [ 7464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\qUINT_ssr.fx' in 0.002000 s.
+22:13:51:644 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\CAS.fx' in 0.001000 s.
+22:13:51:644 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\dh_uniformity_correction.fx' in 0.001000 s.
+22:13:51:644 [10020] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_01B_RT_Correct_Color.fx' in 0.002000 s.
+22:13:51:645 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\ChromaticAberration.fx' in 0.000000 s.
+22:13:51:647 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_06_Film_Grain.fx' in 0.003000 s.
+22:13:51:647 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Dimension_Plus.fx' in 0.002000 s.
+22:13:51:648 [ 1464] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\PD80_06_Luma_Fade.fx' in 0.001000 s.
+22:13:51:648 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\DisplayDepth.fx' in 0.001000 s.
+22:13:51:649 [ 9008] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\Clarity.fx' in 0.003000 s.
+22:13:51:651 [ 6820] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\DLAA_Plus.fx' in 0.002000 s.
+22:13:51:654 [ 7464] | WARN  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\RadiantGI.fx' in 0.009000 s with warnings:
+C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\RadiantGI.fx(305, 1): error X3020: 'V__PCGIcurrColorTex': cannot sample from texture that is also used as render target in the same pass
+
+22:13:51:660 [10832] | WARN  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\SuperDepth3D.fx' in 0.022000 s with warnings:
+C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\SuperDepth3D.fx(625, 35): warning X3206: implicit truncation of vector type
+
+22:13:51:663 [10832] | INFO  | Successfully compiled 'C:\Users\Hiile\AppData\Roaming\Bloxshade\reshade-shaders\Shaders\SurfaceBlur.fx' in 0.001000 s.
+22:13:51:867 [ 6784] | INFO  | Resizing image data for texture 'V__lensDBTex' from 1024x576 to 1920x1080.
+22:13:51:885 [ 6784] | INFO  | Resizing image data for texture 'V__lensDB2Tex' from 1024x576 to 1920x1080.
+22:23:00:610 [ 6784] | INFO  | Destroyed runtime environment on runtime 0000017EA6EDD8F0 ('C:\Users\Hiile\AppData\Roaming\Bloxshade\ReShade.ini').
+22:23:00:615 [ 6784] | INFO  | Unregistered add-on "Bloxshade_ReShade".
+22:23:00:615 [ 6784] | INFO  | Exiting ...
+22:23:00:615 [ 6784] | INFO  | Uninstalling 35 hook(s) ...
+22:23:01:630 [ 6784] | INFO  | Finished exiting.
